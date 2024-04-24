@@ -16,7 +16,7 @@ function App() {
                         </p>
                         <p>
                            {"{"}
-                           booking day, booking time
+                           booking date, booking time
                            {"}"}
                         </p>
                      </div>
