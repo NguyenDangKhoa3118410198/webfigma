@@ -2,13 +2,15 @@ import "./styles/css/App.css";
 
 function App() {
    return (
-      <div className="BookingApp">
-         <div className="booking-wrapper">
-            <div className="booking-container">
-               <div className="booking-information">
-                  <div className="booking-basic-inform">
-                     <p className="booking-customer-name">Customer's name</p>
-                     <div className="booking-customer-contact">
+      <div className="booking">
+         <div className="booking__wrapper">
+            <div className="booking__container">
+               <div className="booking__info">
+                  <div className="booking__info_customer-detail">
+                     <p className="booking__info__customer-name">
+                        Customer's name
+                     </p>
+                     <div className="booking__info__customer-contact">
                         <p>
                            {"{"}
                            phone number
@@ -21,63 +23,81 @@ function App() {
                         </p>
                      </div>
                   </div>
-                  <div className="booking-divider"></div>
-                  <div className="booking-details">
-                     <div className="booking-service-details">
-                        <p className="booking-service-title">Service Details</p>
+                  <div className="booking__divider"></div>
+                  <div className="booking__info-details">
+                     <div className="booking__service">
+                        <p className="booking__service__title">
+                           Service Details
+                        </p>
                         <>
-                           <div className="content-servive-details">
-                              <div className="service-and-price">
-                                 <p className="services">Service's name</p>
+                           <div className="booking__service__wrapper">
+                              <div className="booking__service__content">
+                                 <div className="booking__service__item">
+                                    <p className="booking__service__item__name">
+                                       Service's name
+                                    </p>
+                                 </div>
                               </div>
+                              <div className="booking__divider"></div>
                            </div>
-                           <div className="booking-divider"></div>
-                        </>
-                        <>
-                           <div className="content-servive-details">
-                              <div className="service-and-price">
-                                 <p className="services">Service's name</p>
+                           <div className="booking__service__wrapper">
+                              <div className="booking__service__content">
+                                 <div className="booking__service__item">
+                                    <p className="booking__service__item__name">
+                                       Service's name
+                                    </p>
+                                 </div>
                               </div>
+                              <div className="booking__divider"></div>
                            </div>
-                           <div className="booking-divider"></div>
-                        </>
-                        <>
-                           <div className="content-service-details">
-                              <div className="service-and-price">
-                                 <p className="services">Service's name</p>
+                           <div className="booking__service__wrapper">
+                              <div className="booking__service__content">
+                                 <div className="booking__service__item">
+                                    <p className="booking__service__item__name">
+                                       Service's name
+                                    </p>
+                                 </div>
                               </div>
+                              <div className="booking__divider"></div>
                            </div>
-                           <div className="booking-divider"></div>
-                        </>
-                        <>
-                           <div className="content-servive-details">
-                              <div className="service-and-price">
-                                 <p className="services">Service's name</p>
+                           <div className="booking__service__wrapper">
+                              <div className="booking__service__content">
+                                 <div className="booking__service__item">
+                                    <p className="booking__service__item__name">
+                                       Service's name
+                                    </p>
+                                 </div>
                               </div>
+                              <div className="booking__divider"></div>
                            </div>
-                           <div className="booking-divider"></div>
                         </>
                      </div>
-                     <>
-                        <div className="booking-balance">
-                           <p className="sub-total">Subtotal</p>
-                           <p className="price">$140.00</p>
+                     <div className="booking__balance">
+                        <div className="booking__balance__content">
+                           <p className="booking__balance__label">Subtotal</p>
+                           <p className="booking__balance__price">$140.00</p>
                         </div>
-                        <div className="booking-divider"></div>
+                        <div className="booking__divider"></div>
 
-                        <div className="booking-balance">
-                           <p className="sub-total bold-text">Total</p>
-                           <p className="price large-font">$140.00</p>
+                        <div className="booking__balance__content">
+                           <p className="booking__balance__label weight-500">
+                              Total
+                           </p>
+                           <p className="booking__balance__price font--large">
+                              $140.00
+                           </p>
                         </div>
 
-                        <div className="booking-balance">
-                           <p className="payment-method">Payment method</p>
-                           <p className="price large-font">CARD</p>
+                        <div className="booking__balance__content">
+                           <p className="booking__balance__label weight-400">
+                              Payment method
+                           </p>
+                           <p className="booking__balance__price">CARD</p>
                         </div>
-                     </>
+                     </div>
                   </div>
                </div>
-               <button className="booking-button">Button</button>
+               <button className="booking__button">Make new booking</button>
             </div>
          </div>
       </div>

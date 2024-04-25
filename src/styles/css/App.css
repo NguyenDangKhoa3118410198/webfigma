@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Inter";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeSpeed;
@@ -16,7 +16,7 @@ button {
   border: none;
 }
 
-.BookingApp {
+.booking {
   min-height: 100vh;
   font-family: "Inter";
   font-weight: 600;
@@ -25,14 +25,14 @@ button {
   background: #f0f2f7;
 }
 
-.booking-wrapper {
+.booking__wrapper {
   height: 100%;
   width: 100%;
   border-radius: 6px;
   overflow: hidden;
 }
 
-.booking-container {
+.booking__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,32 +40,32 @@ button {
   padding: 2rem;
 }
 
-.booking-information {
+.booking__info {
   min-width: 50%;
   color: #363565;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 40px;
   background-color: #fff;
   border-radius: 6px;
-  padding: 1rem;
+  padding: 60px 60px 134px 60px;
 }
 
-.booking-basic-inform {
+.booking__info_customer-detail {
   display: flex;
   flex-direction: column;
   text-align: center;
   gap: 8px;
 }
 
-.booking-customer-name {
-  font-size: 30px;
+.booking__info__customer-name {
+  font-size: 36px;
   line-height: 50.4px;
   text-align: center;
   color: #363565;
 }
 
-.booking-customer-contact {
+.booking__info__customer-contact {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -76,49 +76,54 @@ button {
   color: #60669f;
 }
 
-.booking-divider {
+.booking__divider {
   width: 100%;
   height: 1px;
   border-radius: 6px;
   background-color: #dee3ee;
 }
 
-.booking-details {
+.booking__info-details {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 18px;
   justify-content: space-between;
 }
 
-.booking-service-details {
+.booking__service {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.booking-service-title {
+.booking__service__title {
   font-size: 16px;
   line-height: 22.4px;
   text-align: left;
   color: #363565;
 }
 
-.content-service-details {
+.booking__service__wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
-.content-service-details .booking-divider {
+.booking__service__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking__service__content .booking__divider {
   margin: 0;
 }
 
-.service-and-price {
+.booking__service__item {
   display: flex;
   gap: 24px;
 }
 
-.services {
+.booking__service__item__name {
   flex: 1;
   font-size: 16px;
   font-weight: 500;
@@ -126,37 +131,18 @@ button {
   text-align: left;
 }
 
-/* .price-and-quanlity {
-  flex: 1;
+.booking__balance {
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.price {
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  line-height: 25.2px;
-  text-align: right;
-}
-
-.quanlity {
-  width: 40px;
-  height: 22px;
-  color: #60669f;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22.4px;
-  text-align: left;
-} */
-.booking-balance {
+.booking__balance__content {
   display: flex;
   justify-content: space-between;
 }
 
-.sub-total,
-.payment-method {
+.booking__balance__label {
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -165,25 +151,45 @@ button {
   text-align: left;
 }
 
-.booking-button {
-  min-width: 40%;
+.booking__balance__price {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.booking__button {
+  min-width: 45%;
   height: 3rem;
   border-radius: 6px;
+  padding: 0.5rem;
   font-size: 16px;
   line-height: 22.4px;
   text-align: center;
   color: #fff;
-  background-color: red;
+  background-color: #363565;
+  cursor: pointer;
 }
 
+@media (max-width: 375px) {
+  .booking__info {
+    min-width: 300px;
+  }
+  .booking__button {
+    min-width: 200px;
+  }
+}
 /* ========================== */
-.large-font {
+.font--large {
   font-size: 24px;
-  font-weight: 600;
   line-height: 33.6px;
   color: #363565;
 }
 
-.bold-text {
+.weight-500 {
   font-weight: 500;
+}
+
+.weight-400 {
+  font-weight: 400;
 }

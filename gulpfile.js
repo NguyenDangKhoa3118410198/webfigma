@@ -1,5 +1,5 @@
 const gulp = require("gulp");
-const sass = require("gulp-sass")(require("sass"));
+const sass = require("gulp-sass")(require("dart-sass"));
 
 function compileSass() {
    return gulp
@@ -12,4 +12,4 @@ function watchSass() {
    gulp.watch("src/styles/**/*.scss", compileSass);
 }
 
-exports.default = gulp.parallel(compileSass, watchSass);
+exports.default = gulp.series(compileSass, watchSass);

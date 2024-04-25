@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "dart-sass": "^1.25.0",
     "gulp": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.75.0"
