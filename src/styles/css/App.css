@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.BookingApp {
+  min-height: 100vh;
+  font-family: "Inter";
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  background: #f0f2f7;
+}
+
+.booking-wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 2rem;
+}
+
+.booking-information {
+  min-width: 50%;
+  color: #363565;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.booking-basic-inform {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
+
+.booking-customer-name {
+  font-size: 30px;
+  line-height: 50.4px;
+  text-align: center;
+  color: #363565;
+}
+
+.booking-customer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  text-align: center;
+  color: #60669f;
+}
+
+.booking-divider {
+  width: 100%;
+  height: 1px;
+  border-radius: 6px;
+  background-color: #dee3ee;
+}
+
+.booking-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.booking-service-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.booking-service-title {
+  font-size: 16px;
+  line-height: 22.4px;
+  text-align: left;
+  color: #363565;
+}
+
+.content-service-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.content-service-details .booking-divider {
+  margin: 0;
+}
+
+.service-and-price {
+  display: flex;
+  gap: 24px;
+}
+
+.services {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+/* .price-and-quanlity {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 25.2px;
+  text-align: right;
+}
+
+.quanlity {
+  width: 40px;
+  height: 22px;
+  color: #60669f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+} */
+.booking-balance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-total,
+.payment-method {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.booking-button {
+  min-width: 40%;
+  height: 3rem;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-align: center;
+  color: #fff;
+  background-color: red;
+}
+
+/* ========================== */
+.large-font {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33.6px;
+  color: #363565;
+}
+
+.bold-text {
+  font-weight: 500;
+}

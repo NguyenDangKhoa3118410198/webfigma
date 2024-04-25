@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles/css/App.css";
 
 function App() {
    return (
@@ -29,10 +29,6 @@ function App() {
                            <div className="content-servive-details">
                               <div className="service-and-price">
                                  <p className="services">Service's name</p>
-                                 <div className="price-and-quanlity">
-                                    <p className="quanlity">1x</p>
-                                    <p className="price">$50.00</p>
-                                 </div>
                               </div>
                            </div>
                            <div className="booking-divider"></div>
@@ -41,10 +37,6 @@ function App() {
                            <div className="content-servive-details">
                               <div className="service-and-price">
                                  <p className="services">Service's name</p>
-                                 <div className="price-and-quanlity">
-                                    <p className="quanlity">1x</p>
-                                    <p className="price">$50.00</p>
-                                 </div>
                               </div>
                            </div>
                            <div className="booking-divider"></div>
@@ -53,10 +45,6 @@ function App() {
                            <div className="content-service-details">
                               <div className="service-and-price">
                                  <p className="services">Service's name</p>
-                                 <div className="price-and-quanlity">
-                                    <p className="quanlity">1x</p>
-                                    <p className="price">$20.00</p>
-                                 </div>
                               </div>
                            </div>
                            <div className="booking-divider"></div>
@@ -65,10 +53,6 @@ function App() {
                            <div className="content-servive-details">
                               <div className="service-and-price">
                                  <p className="services">Service's name</p>
-                                 <div className="price-and-quanlity">
-                                    <p className="quanlity">1x</p>
-                                    <p className="price">$20.00</p>
-                                 </div>
                               </div>
                            </div>
                            <div className="booking-divider"></div>
