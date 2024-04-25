@@ -1,0 +1,177 @@
+.booking {
+  min-height: 100vh;
+  font-family: "Inter";
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  background: #f0f2f7;
+}
+
+.booking__wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.booking__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 2rem;
+}
+
+.booking__info {
+  min-width: 50%;
+  color: #363565;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 60px 60px 134px 60px;
+}
+
+.booking__info_customer-detail {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
+
+.booking__info__customer-name {
+  font-size: 36px;
+  line-height: 50.4px;
+  text-align: center;
+  color: #363565;
+}
+
+.booking__info__customer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  text-align: center;
+  color: #60669f;
+}
+
+.booking__divider {
+  width: 100%;
+  height: 1px;
+  border-radius: 6px;
+  background-color: #dee3ee;
+}
+
+.booking__info-details {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: space-between;
+}
+
+.booking__service {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.booking__service__title {
+  font-size: 16px;
+  line-height: 22.4px;
+  text-align: left;
+  color: #363565;
+}
+
+.booking__service__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.booking__service__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking__service__content .booking__divider {
+  margin: 0;
+}
+
+.booking__service__item {
+  display: flex;
+  gap: 24px;
+}
+
+.booking__service__item__name {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.booking__balance {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.booking__balance__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking__balance__label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.booking__balance__price {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.booking__button {
+  min-width: 45%;
+  height: 3rem;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-align: center;
+  color: #fff;
+  background-color: #363565;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .booking__info {
+    min-width: 300px;
+  }
+  .booking__button {
+    min-width: 200px;
+  }
+}
+/* ========================== */
+.font--large {
+  font-size: 24px;
+  line-height: 33.6px;
+  color: #363565;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
