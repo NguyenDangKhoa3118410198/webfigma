@@ -41,24 +41,24 @@
    flex-direction: column;
    text-align: center;
    gap: 8px;
-}
 
-.booking__info__customer-name {
-   font-size: 36px;
-   line-height: 50.4px;
-   text-align: center;
-   color: $textColor;
-}
+   .booking__info__customer-name {
+      font-size: 36px;
+      line-height: 50.4px;
+      text-align: center;
+      color: $textColor;
+   }
 
-.booking__info__customer-contact {
-   display: flex;
-   flex-direction: column;
-   gap: 4px;
-   font-weight: $regular-font-weight;
-   font-size: 14px;
-   line-height: 19.6px;
-   text-align: center;
-   color: #60669f;
+   .booking__info__customer-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-weight: $regular-font-weight;
+      font-size: 14px;
+      line-height: 19.6px;
+      text-align: center;
+      color: #60669f;
+   }
 }
 
 .booking__divider {
@@ -99,10 +99,6 @@
    flex-direction: column;
 }
 
-.booking__service__content .booking__divider {
-   margin: 0;
-}
-
 .booking__service__item {
    display: flex;
    gap: 24px;
@@ -125,22 +121,36 @@
 .booking__balance__content {
    display: flex;
    justify-content: space-between;
-}
 
-.booking__balance__label {
-   display: flex;
-   align-items: center;
-   font-size: $text-size-normal;
-   font-weight: $regular-font-weight;
-   line-height: 22.4px;
-   text-align: left;
-}
+   .booking__balance__label {
+      display: flex;
+      align-items: center;
+      font-size: $text-size-normal;
+      font-weight: $regular-font-weight;
+      line-height: 22.4px;
+      text-align: left;
 
-.booking__balance__price {
-   font-size: $text-size-normal;
-   font-weight: 600;
-   line-height: 22.4px;
-   text-align: left;
+      &.weight-400 {
+         font-weight: 400;
+      }
+
+      &.weight-500 {
+         font-weight: 500;
+      }
+   }
+
+   .booking__balance__price {
+      font-size: $text-size-normal;
+      font-weight: 600;
+      line-height: 22.4px;
+      text-align: left;
+
+      &.font--large {
+         font-size: $text-size-large;
+         line-height: 33.6px;
+         color: $textColor;
+      }
+   }
 }
 
 .booking__button {
@@ -163,19 +173,4 @@
    .booking__button {
       min-width: 200px;
    }
-}
-
-/* ========================== */
-.font--large {
-   font-size: $text-size-large;
-   line-height: 33.6px;
-   color: $textColor;
-}
-
-.weight-500 {
-   font-weight: 500;
-}
-
-.weight-400 {
-   font-weight: $regular-font-weight;
 }

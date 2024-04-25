@@ -9,7 +9,7 @@ function compileSass() {
 }
 
 function watchSass() {
-   gulp.watch("src/styles/**/*.scss", compileSass);
+   gulp.watch("src/styles/scss/**/*.scss", compileSass);
 }
 
 exports.default = gulp.series(compileSass, watchSass);
