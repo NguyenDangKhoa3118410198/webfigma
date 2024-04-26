@@ -26,7 +26,7 @@
 
 .booking__info {
    min-width: 50%;
-   color: $textColor;
+   color: $text-color;
    display: flex;
    flex-direction: column;
    gap: 40px;
@@ -45,7 +45,7 @@
       font-size: 36px;
       line-height: 50.4px;
       text-align: center;
-      color: $textColor;
+      color: $text-color;
    }
 
    .booking__info__customer-contact {
@@ -84,7 +84,7 @@
    font-size: $text-size-normal;
    line-height: 22.4px;
    text-align: left;
-   color: $textColor;
+   color: $text-color;
 }
 
 .booking__service__wrapper {
@@ -145,7 +145,7 @@
       &.font--large {
          font-size: $text-size-large;
          line-height: 33.6px;
-         color: $textColor;
+         color: $text-color;
       }
    }
 }
@@ -159,7 +159,7 @@
    line-height: 22.4px;
    text-align: center;
    color: #fff;
-   background-color: $textColor;
+   background-color: $text-color;
    cursor: pointer;
 }
 
