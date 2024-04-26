@@ -1,6 +1,5 @@
 .booking {
   min-height: 100vh;
-  font-family: "Inter";
   font-weight: 600;
   display: grid;
   place-items: center;
@@ -8,8 +7,8 @@
 }
 
 .booking__wrapper {
-  height: 100%;
   width: 100%;
+  height: 100%;
   border-radius: 6px;
   overflow: hidden;
 }
