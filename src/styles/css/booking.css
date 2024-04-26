@@ -130,6 +130,12 @@
 .booking__balance__content .booking__balance__label.weight-500 {
   font-weight: 500;
 }
+.booking__balance__content .booking__balance__label.weight-600 {
+  font-weight: 600;
+}
+.booking__balance__content .booking__balance__label.weight-700 {
+  font-weight: 700;
+}
 .booking__balance__content .booking__balance__price {
   font-size: 16px;
   font-weight: 600;
