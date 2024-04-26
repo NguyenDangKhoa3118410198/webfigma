@@ -3,16 +3,14 @@
 
 .booking {
    min-height: 100vh;
-   font-family: "Inter";
    font-weight: 600;
    display: grid;
    place-items: center;
-   background: #f0f2f7;
+   background: $main-bg;
 }
 
 .booking__wrapper {
-   height: 100%;
-   width: 100%;
+   @include fullScreen();
    border-radius: 6px;
    overflow: hidden;
 }
