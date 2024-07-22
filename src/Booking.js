@@ -98,7 +98,7 @@ export default function Booking() {
                      </div>
                   </div>
                </div>
-               <button className="booking__button">Make new booking</button>
+               <button className="booking__button">Make New Booking</button>
             </div>
          </div>
       </div>
